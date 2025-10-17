@@ -1,0 +1,25 @@
+{
+    "name": "turtlebot3-dev",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "runArgs": [
+        "--network=host",
+        "--device=/dev/dri:/dev/dri",
+        "-e", "DISPLAY=${env:DISPLAY}",
+        "-v", "/tmp/.X11-unix:/tmp/.X11-unix",
+        "-v", "${localWorkspaceFolder}/ros_ws:/home/ros/ros_ws"
+    ],
+    "containerUser": "ros",
+    "workspaceFolder": "/home/ros/ros_ws",
+    "remoteUser": "ros",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-iot.vscode-ros"
+    ],
+    "postCreateCommand": "source ~/.bashrc"
+}
