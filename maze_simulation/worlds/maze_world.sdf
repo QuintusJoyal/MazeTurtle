@@ -104,7 +104,7 @@
   <pose>0.000000 0.250000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_v_r0_c2">
+<model name="wall_v_r0_c3">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -128,34 +128,7 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>1.000000 0.250000 0.250000 0 0 0</pose>
-</model>
-
-<model name="wall_v_r0_c4">
-  <static>true</static>
-  <link name="link">
-    <pose>0 0 0 0 0 0</pose>
-    <collision name="collision">
-      <geometry>
-        <box>
-          <size>0.050100 0.500100 0.500000</size>
-        </box>
-      </geometry>
-    </collision>
-    <visual name="visual">
-      <geometry>
-        <box>
-          <size>0.050100 0.500100 0.500000</size>
-        </box>
-      </geometry>
-      <material>
-        <ambient>0.6 0.6 0.6 1</ambient>
-        <diffuse>0.6 0.6 0.6 1</diffuse>
-      </material>
-    </visual>
-  </link>
-  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>2.000000 0.250000 0.250000 0 0 0</pose>
+  <pose>1.500000 0.250000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_v_r0_c6">
@@ -266,7 +239,7 @@
   <pose>1.500000 0.750000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_v_r1_c5">
+<model name="wall_v_r1_c4">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -290,7 +263,7 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>2.500000 0.750000 0.250000 0 0 0</pose>
+  <pose>2.000000 0.750000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_v_r1_c6">
@@ -509,7 +482,7 @@
   <pose>0.500000 1.750000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_v_r3_c3">
+<model name="wall_v_r3_c2">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -533,10 +506,10 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>1.500000 1.750000 0.250000 0 0 0</pose>
+  <pose>1.000000 1.750000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_v_r3_c5">
+<model name="wall_v_r3_c4">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -560,7 +533,7 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>2.500000 1.750000 0.250000 0 0 0</pose>
+  <pose>2.000000 1.750000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_v_r3_c6">
@@ -617,7 +590,7 @@
   <pose>0.000000 2.250000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_v_r4_c5">
+<model name="wall_v_r4_c2">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -641,7 +614,7 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>2.500000 2.250000 0.250000 0 0 0</pose>
+  <pose>1.000000 2.250000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_v_r4_c6">
@@ -696,6 +669,33 @@
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
   <pose>0.000000 2.750000 0.250000 0 0 0</pose>
+</model>
+
+<model name="wall_v_r5_c1">
+  <static>true</static>
+  <link name="link">
+    <pose>0 0 0 0 0 0</pose>
+    <collision name="collision">
+      <geometry>
+        <box>
+          <size>0.050100 0.500100 0.500000</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name="visual">
+      <geometry>
+        <box>
+          <size>0.050100 0.500100 0.500000</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.6 0.6 1</ambient>
+        <diffuse>0.6 0.6 0.6 1</diffuse>
+      </material>
+    </visual>
+  </link>
+  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
+  <pose>0.500000 2.750000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_v_r5_c6">
@@ -887,7 +887,7 @@
   <pose>2.750000 0.000000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_h_r2_c2">
+<model name="wall_h_r1_c1">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -911,7 +911,61 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>1.250000 1.000000 0.250000 0 0 0</pose>
+  <pose>0.750000 0.500000 0.250000 0 0 0</pose>
+</model>
+
+<model name="wall_h_r1_c2">
+  <static>true</static>
+  <link name="link">
+    <pose>0 0 0 0 0 0</pose>
+    <collision name="collision">
+      <geometry>
+        <box>
+          <size>0.500100 0.050100 0.500000</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name="visual">
+      <geometry>
+        <box>
+          <size>0.500100 0.050100 0.500000</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.6 0.6 1</ambient>
+        <diffuse>0.6 0.6 0.6 1</diffuse>
+      </material>
+    </visual>
+  </link>
+  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
+  <pose>1.250000 0.500000 0.250000 0 0 0</pose>
+</model>
+
+<model name="wall_h_r1_c4">
+  <static>true</static>
+  <link name="link">
+    <pose>0 0 0 0 0 0</pose>
+    <collision name="collision">
+      <geometry>
+        <box>
+          <size>0.500100 0.050100 0.500000</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name="visual">
+      <geometry>
+        <box>
+          <size>0.500100 0.050100 0.500000</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.6 0.6 1</ambient>
+        <diffuse>0.6 0.6 0.6 1</diffuse>
+      </material>
+    </visual>
+  </link>
+  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
+  <pose>2.250000 0.500000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_h_r2_c3">
@@ -941,7 +995,7 @@
   <pose>1.750000 1.000000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_h_r2_c4">
+<model name="wall_h_r2_c5">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -965,7 +1019,34 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>2.250000 1.000000 0.250000 0 0 0</pose>
+  <pose>2.750000 1.000000 0.250000 0 0 0</pose>
+</model>
+
+<model name="wall_h_r3_c2">
+  <static>true</static>
+  <link name="link">
+    <pose>0 0 0 0 0 0</pose>
+    <collision name="collision">
+      <geometry>
+        <box>
+          <size>0.500100 0.050100 0.500000</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name="visual">
+      <geometry>
+        <box>
+          <size>0.500100 0.050100 0.500000</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.6 0.6 1</ambient>
+        <diffuse>0.6 0.6 0.6 1</diffuse>
+      </material>
+    </visual>
+  </link>
+  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
+  <pose>1.250000 1.500000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_h_r3_c4">
@@ -995,87 +1076,6 @@
   <pose>2.250000 1.500000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_h_r3_c5">
-  <static>true</static>
-  <link name="link">
-    <pose>0 0 0 0 0 0</pose>
-    <collision name="collision">
-      <geometry>
-        <box>
-          <size>0.500100 0.050100 0.500000</size>
-        </box>
-      </geometry>
-    </collision>
-    <visual name="visual">
-      <geometry>
-        <box>
-          <size>0.500100 0.050100 0.500000</size>
-        </box>
-      </geometry>
-      <material>
-        <ambient>0.6 0.6 0.6 1</ambient>
-        <diffuse>0.6 0.6 0.6 1</diffuse>
-      </material>
-    </visual>
-  </link>
-  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>2.750000 1.500000 0.250000 0 0 0</pose>
-</model>
-
-<model name="wall_h_r4_c1">
-  <static>true</static>
-  <link name="link">
-    <pose>0 0 0 0 0 0</pose>
-    <collision name="collision">
-      <geometry>
-        <box>
-          <size>0.500100 0.050100 0.500000</size>
-        </box>
-      </geometry>
-    </collision>
-    <visual name="visual">
-      <geometry>
-        <box>
-          <size>0.500100 0.050100 0.500000</size>
-        </box>
-      </geometry>
-      <material>
-        <ambient>0.6 0.6 0.6 1</ambient>
-        <diffuse>0.6 0.6 0.6 1</diffuse>
-      </material>
-    </visual>
-  </link>
-  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>0.750000 2.000000 0.250000 0 0 0</pose>
-</model>
-
-<model name="wall_h_r4_c2">
-  <static>true</static>
-  <link name="link">
-    <pose>0 0 0 0 0 0</pose>
-    <collision name="collision">
-      <geometry>
-        <box>
-          <size>0.500100 0.050100 0.500000</size>
-        </box>
-      </geometry>
-    </collision>
-    <visual name="visual">
-      <geometry>
-        <box>
-          <size>0.500100 0.050100 0.500000</size>
-        </box>
-      </geometry>
-      <material>
-        <ambient>0.6 0.6 0.6 1</ambient>
-        <diffuse>0.6 0.6 0.6 1</diffuse>
-      </material>
-    </visual>
-  </link>
-  <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>1.250000 2.000000 0.250000 0 0 0</pose>
-</model>
-
 <model name="wall_h_r4_c3">
   <static>true</static>
   <link name="link">
@@ -1103,7 +1103,7 @@
   <pose>1.750000 2.000000 0.250000 0 0 0</pose>
 </model>
 
-<model name="wall_h_r5_c0">
+<model name="wall_h_r4_c5">
   <static>true</static>
   <link name="link">
     <pose>0 0 0 0 0 0</pose>
@@ -1127,7 +1127,7 @@
     </visual>
   </link>
   <!-- model pose sets box center; half_z ensures bottom rests on z=0 -->
-  <pose>0.250000 2.500000 0.250000 0 0 0</pose>
+  <pose>2.750000 2.000000 0.250000 0 0 0</pose>
 </model>
 
 <model name="wall_h_r5_c2">

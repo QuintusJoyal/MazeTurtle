@@ -9,22 +9,22 @@ Generate an SDF world for an edge-based maze with embedded ground and sun.
 from textwrap import dedent
 
 # Your inputs (edge-based)
-maze_left2right = [
-    "1010101",
-    "1101011",
-    "1110101",
-    "1101011",
-    "1000011",
-    "1000001"
+maze_top2bottom = [
+  "1000001",
+  "1100001",
+  "1101011",
+  "1010111",
+  "1101011",
+  "1010101"
 ]
 
-maze_top2bottom = [
-    "1000011",
-    "1000101",
-    "1010111",
-    "1010111",
-    "1011011",
-    "1001001"
+maze_left2right = [
+  "1001001",
+  "1101101",
+  "1110101",
+  "1110101",
+  "1010001",
+  "1100001"
 ]
 
 # Parameters
